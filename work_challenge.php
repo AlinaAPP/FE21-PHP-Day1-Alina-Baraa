@@ -70,7 +70,7 @@ $car_agency = array(
                         <td ><?= $car_agency["car1"]["brand"]?></td>
                         <td><?= $car_agency["car1"]["model"]?></td>
                         <td><?= $car_agency["car1"]["price"]?></td>
-                        <td class="w-25"><?= "<img src='./img/auto-gcd0611872_640.jpg' class='img-fluid'>" ?></td>
+                        <td class="w-25"><?= "<img src='{$car_agency["car1"]["img"]}' class='img-fluid'>" ?></td>
                         <td><?= $car_agency["car1"]["availability"]?></td>
                         <td><?= $car_agency["car1"]["location"]?></td>
                     </tr>
@@ -78,7 +78,7 @@ $car_agency = array(
                         <td><?= $car_agency["car2"]["brand"]?></td>
                         <td><?= $car_agency["car2"]["model"]?></td>
                         <td><?= $car_agency["car2"]["price"]?></td>
-                        <td class="w-25"><?= "<img src='./img/car-g0f6322af6_640.jpg' class='img-fluid'>"?></td>
+                        <td class="w-25"><?= "<img src='{$car_agency["car2"]["img"]}' class='img-fluid'>"?></td>
                         <td><?= $car_agency["car2"]["availability"]?></td>
                         <td><?= $car_agency["car2"]["location"]?></td>
                     </tr>
@@ -86,7 +86,7 @@ $car_agency = array(
                         <td><?= $car_agency["car3"]["brand"]?></td>
                         <td><?= $car_agency["car3"]["model"]?></td>
                         <td><?= $car_agency["car3"]["price"]?></td>
-                        <td class="w-25"><?= "<img src='./img/car-g4ce17e466_640.jpg' class='img-fluid'>"?></td>
+                        <td class="w-25"><?= "<img src='{$car_agency["car3"]["img"]}' class='img-fluid'>"?></td>
                         <td><?= $car_agency["car3"]["availability"]?></td>
                         <td><?= $car_agency["car3"]["location"]?></td>
                     </tr>
@@ -94,7 +94,7 @@ $car_agency = array(
                         <td><?= $car_agency["car4"]["brand"]?></td>
                         <td><?= $car_agency["car4"]["model"]?></td>
                         <td><?= $car_agency["car4"]["price"]?></td>
-                        <td class="w-25"><?= "<img src='./img/car-gabf76abff_640.jpg' class='img-fluid'>"?></td>
+                        <td class="w-25"><?= "<img src='{$car_agency["car4"]["img"]}' class='img-fluid'>"?></td>
                         <td><?= $car_agency["car4"]["availability"]?></td>
                         <td><?= $car_agency["car4"]["location"]?></td>
                     </tr>
@@ -104,7 +104,6 @@ $car_agency = array(
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 
 </body>
 </html>
